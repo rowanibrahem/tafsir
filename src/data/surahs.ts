@@ -16,7 +16,7 @@ export const surahs: Surah[] = [
     versesCount: 30,
     place: "meccan",
     image: "/images/elmolk.jpeg",
-    link: "https://docs.google.com/document/d/1Jso830aPRBd35lZE8o_JIzxSg83r0Yqfqpg_l4fSwWo/edit",
+    link: "https://drive.google.com/file/d/1ANwfQmzqFKdMPWHu3hbKL-vrQN5UudA4/view?usp=sharing",
   },
  
 ];
