@@ -12,7 +12,7 @@ type SurahCardProps = {
 const surahs: SurahCardProps[] = [
   {
     title: "سورة الملك",
-    image: "https://via.placeholder.com/300x200",
+    image: "src/assets/elmolk.jpeg",
     link: "https://docs.google.com/document/d/1Jso830aPRBd35lZE8o_JIzxSg83r0Yqfqpg_l4fSwWo/edit",
   },
 ];
@@ -20,11 +20,10 @@ const surahs: SurahCardProps[] = [
 const Header = () => (
   <header className="w-full py-6 px-4 bg-gradient-to-r from-green-600 to-emerald-500 shadow-md">
     <h1 className="text-3xl md:text-4xl font-bold text-white text-center">
-      📖 سور القرآن الكريم
+      📖  تدبر سور القرآن الكريم 
     </h1>
     <p className="text-center text-white/80 mt-2 text-sm md:text-base">
-      تصفح السور بسهولة وجمال ✨
-    </p>
+عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ: "... وَمَا اجْتَمَعَ قَوْمٌ فِي بَيْتٍ مِنْ بُيُوتِ اللَّهِ يَتْلُونَ كِتَابَ اللَّهِ وَيَتَدَارَسُونَهُ بَيْنَهُمْ إِلَّا نَزَلَتْ عَلَيْهِمْ السَّكِينَةُ، وَغَشِيَتْهُمْ الرَّحْمَةُ، وَحَفَّتْهُمْ الْمَلَائِكَةُ، وَذَكَرَهُمْ اللَّهُ فِيمَنْ عِنْدَهُ" (رواه مسلم).    </p>
   </header>
 );
 
@@ -51,7 +50,7 @@ const SurahCard: React.FC<SurahCardProps> = ({ title, image, link }) => {
 
 const App: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gray-50 font-sans">
+    <div className="min-h-screen bg-gray-50 font-sans" dir="rtl">
       <Header />
 
       <main className="p-6 max-w-6xl mx-auto">
