@@ -15,7 +15,7 @@ export const surahs: Surah[] = [
     titleAr: "Al-Mulk",
     versesCount: 30,
     place: "meccan",
-    image: "src/assets/elmolk.jpeg",
+    image: "/images/elmolk.jpeg",
     link: "https://docs.google.com/document/d/1Jso830aPRBd35lZE8o_JIzxSg83r0Yqfqpg_l4fSwWo/edit",
   },
  
